@@ -44,7 +44,7 @@ public class PrimeFactorization {
 		
 		
 		
-		for (int i = 2; i < prime; i++) {
+		for (int i = 2; i <= prime; i++) {
 			if (isPrime(i)) {
 				if (prime % i == 0) {
 					factors += i + " ";
@@ -53,10 +53,6 @@ public class PrimeFactorization {
 				}
 			}
 		}
-			
-		
-		if (factors.equals(""))
-			factors += prime;
 		
 		
 		
