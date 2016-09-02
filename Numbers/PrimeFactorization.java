@@ -48,8 +48,7 @@ public class PrimeFactorization {
 			if (isPrime(i)) {
 				if (prime % i == 0) {
 					factors += i + " ";
-					System.out.println("i is " + i);
-					System.out.println("prime is " + prime);
+					
 				}
 			}
 		}
